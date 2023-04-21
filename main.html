@@ -4,10 +4,36 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	
+	<h1 align ="center">Feedback form</h1>
+	<div>
+<label for="name">name</label>
+<input type="text" id="name" minlength="3" maxlength="50">
+	</div>
+	<div>
+	<label for="portfolio">portfolio</label>
+	<input type="portfolio" id="portfolio">
+		
+	</div>
+	<div>
+	<label for="favColor">favColor</label>
+	<select id="facColor" value="favcolor">
+		<option>Red</option>
+		<option>White</option>
+		<option>Blue</option>
+	</select>
+		<div class="slider">
+			<label for="vol">how much they like their colour</label>
+			<inout type="range" id="likeness" value="50" name="vol" min="1" max="100" class="slider"></inout>
+		</div>
+	<div>
+		<button type="submit">Submit</button>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
